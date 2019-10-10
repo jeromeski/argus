@@ -285,23 +285,23 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__image--1 {
-      background-image: url(../images/combo1-300px.jpg);
+      background-image: url(images/combo1-300px.jpg);
       height: 23rem; }
       @media (min-resolution: 192dpi) and (min-width: 56.25em) {
         .card__image--1 {
-          background-image: url(../images/combo1-1000px.jpg); } }
+          background-image: url(images/combo1-1000px.jpg); } }
     .card__image--2 {
-      background-image: url(../images/combo2-300px.jpg);
+      background-image: url(images/combo2-300px.jpg);
       height: 23rem; }
       @media (min-resolution: 192dpi) and (min-width: 56.25em) {
         .card__image--2 {
-          background-image: url(../images/combo2-1000px.jpg); } }
+          background-image: url(images/combo2-1000px.jpg); } }
     .card__image--3 {
-      background-image: url(../images/combo3-300px.jpg);
+      background-image: url(images/combo3-300px.jpg);
       height: 23rem; }
       @media (min-resolution: 192dpi) and (min-width: 56.25em) {
         .card__image--3 {
-          background-image: url(../images/combo3-1000px.jpg); } }
+          background-image: url(images/combo3-1000px.jpg); } }
   .card__title {
     font-size: 2.8rem;
     font-weight: 300;
@@ -809,7 +809,7 @@ body {
 
 .home-hero {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(../images/hero-1200.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(images/hero-1200.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: top;
@@ -821,10 +821,10 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); } }
   @media (min-resolution: 192dpi) and (min-width: 37.5em), (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-width: 125em) {
     .home-hero {
-      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(../images/hero-1200.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(images/hero-1200.jpg); } }
   @media (min-width: 125em) {
     .home-hero {
-      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(../images/hero-2000.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(images/hero-2000.jpg); } }
   @media (max-width: 37.5em) {
     .home-hero {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
@@ -1002,7 +1002,7 @@ body {
 
 .home-features {
   padding: 20rem 0 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(../images/overseer-2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.95), #c1d7e1), url(images/overseer-2.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1032,19 +1032,19 @@ body {
   margin-top: -24vh; }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/monitor-2.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(images/monitor-2.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.5); }
   @media (min-resolution: 192dpi) and (min-width: 56.25em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/monitor2-1000px.jpg); } }
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url/images/monitor2-1000px.jpg); } }
   @media (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../images/monitor-2.jpg); } }
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url/images/monitor-2.jpg); } }
   @media (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../images/monitor-2.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(images/monitor-2.jpg);
       background-size: cover; } }
   .book__form {
     width: 50%;
